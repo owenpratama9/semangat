@@ -10,14 +10,14 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.993);
 }
 .greetings{
     font-size: 6rem;
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 2.5s ease-in-out infinite;
+    animation: glow 3s ease-in-out infinite;
 }
 @keyframes glow{
     0%, 100%{
@@ -25,8 +25,8 @@ body{
         text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
     }
     10%, 90%{
-        color: #111;
-        text-shadow: none;
+        color: #eda7f2;
+        text-shadow: rgb(162, 162, 240);
     }
 }
 .greetings > span:nth-child(2){
